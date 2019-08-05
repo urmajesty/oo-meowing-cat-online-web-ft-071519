@@ -1,15 +1,15 @@
 ## code your solution here. 
 class Cat
- attr_accessor :name, :bark
+ attr_accessor :name, :meow
  
-   def initialize(name, bark)
+   def initialize(name, meow)
 
 def name
   @name
 end
 
-def bark
-  @bark
+def meow
+  @meow
 puts "meow"
 end
 end
@@ -18,7 +18,7 @@ end
   
 catty = Cat.new
 catty.name = "Catty"
-catty.bark = "meow"
+catty.meow = "meow"
 
 catty.name
-catty.bark
+catty.meow
