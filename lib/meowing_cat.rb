@@ -11,7 +11,6 @@ def meow
 puts "meow"
 end
 end
-end
   
   
 catty = Cat.new
